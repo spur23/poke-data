@@ -1,6 +1,7 @@
 const path = require("path");
 
 module.exports = {
+  pathPrefix:'/poke-data'
   plugins: [
     {
       resolve: "gatsby-source-filesystem",
